@@ -125,7 +125,8 @@ coverage
 license.txt
 exports
 .strapi
-dist
-build
 .strapi-updater.json
 .strapi-cloud.json
+# NOTE: dist/ and build/ are intentionally tracked (not ignored) — the
+# cPanel server doesn't have enough memory to run `strapi build` itself,
+# so the pre-built output is committed and deployed via `git pull`.
