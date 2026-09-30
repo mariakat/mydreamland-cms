@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_blog_review_cards",
+  "info": {
+    "displayName": "Κάρτα κριτικής",
+    "icon": "star",
+    "description": "Στοιχεία ταινίας, σειράς ή βιβλίου που σχολιάζει το άρθρο"
+  },
+  "options": {},
+  "attributes": {
+    "kind": {
+      "type": "enumeration",
+      "enum": ["Ταινία", "Σειρά", "Βιβλίο"],
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "creator": {
+      "type": "string"
+    },
+    "year": {
+      "type": "integer",
+      "min": 1800,
+      "max": 2100
+    },
+    "genre": {
+      "type": "string"
+    },
+    "whereToFind": {
+      "type": "string"
+    },
+    "poster": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    },
+    "rating": {
+      "type": "integer",
+      "min": 1,
+      "max": 5
+    }
+  }
+}
