@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_settings",
+  "info": {
+    "singularName": "site-setting",
+    "pluralName": "site-settings",
+    "displayName": "Ρυθμίσεις site",
+    "description": "Στοιχεία συγγραφέα που εμφανίζονται στα άρθρα και στην αρχική"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "authorName": {
+      "type": "string"
+    },
+    "authorPhoto": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    },
+    "authorBio": {
+      "type": "text"
+    }
+  }
+}
