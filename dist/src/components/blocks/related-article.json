@@ -1,0 +1,20 @@
+{
+    "collectionName": "components_blocks_related_articles",
+    "info": {
+        "displayName": "Διάβασε επίσης",
+        "icon": "link",
+        "description": "Κάρτα προς άλλο άρθρο του blog"
+    },
+    "options": {},
+    "attributes": {
+        "article": {
+            "type": "relation",
+            "relation": "oneToOne",
+            "target": "api::article.article"
+        },
+        "label": {
+            "type": "string",
+            "default": "Διάβασε επίσης"
+        }
+    }
+}

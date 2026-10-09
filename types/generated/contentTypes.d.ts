@@ -468,6 +468,21 @@ export interface ApiArticleArticle extends Struct.CollectionTypeSchema {
       ]
     > &
       Schema.Attribute.Required;
+    content: Schema.Attribute.DynamicZone<
+      [
+        'blocks.text',
+        'blocks.image',
+        'blocks.gallery',
+        'blocks.quote',
+        'blog.review-card',
+        'blocks.spotify',
+        'blocks.youtube',
+        'blocks.instagram',
+        'blocks.related-article',
+        'blocks.divider',
+        'blocks.recipe',
+      ]
+    >;
     coverImage: Schema.Attribute.Media<'images'>;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &

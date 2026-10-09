@@ -68,6 +68,22 @@
             "type": "component",
             "repeatable": false,
             "component": "blog.review-card"
+        },
+        "content": {
+            "type": "dynamiczone",
+            "components": [
+                "blocks.text",
+                "blocks.image",
+                "blocks.gallery",
+                "blocks.quote",
+                "blog.review-card",
+                "blocks.spotify",
+                "blocks.youtube",
+                "blocks.instagram",
+                "blocks.related-article",
+                "blocks.divider",
+                "blocks.recipe"
+            ]
         }
     }
 }

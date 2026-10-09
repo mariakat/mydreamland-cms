@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_blocks_gallerys",
+    "info": {
+        "displayName": "Γκαλερί",
+        "icon": "landscape",
+        "description": "Πολλές φωτογραφίες σε πλέγμα"
+    },
+    "options": {},
+    "attributes": {
+        "images": {
+            "type": "media",
+            "multiple": true,
+            "required": true,
+            "allowedTypes": [
+                "images"
+            ]
+        },
+        "caption": {
+            "type": "string"
+        }
+    }
+}

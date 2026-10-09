@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_blocks_youtubes",
+    "info": {
+        "displayName": "YouTube",
+        "icon": "play",
+        "description": "Link από βίντεο του YouTube"
+    },
+    "options": {},
+    "attributes": {
+        "url": {
+            "type": "string",
+            "required": true,
+            "regex": "^https://(www\\.|m\\.)?(youtube\\.com|youtu\\.be)/.+"
+        },
+        "caption": {
+            "type": "string"
+        }
+    }
+}

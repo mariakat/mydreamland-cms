@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_blocks_images",
+  "info": {
+    "displayName": "Εικόνα",
+    "icon": "picture",
+    "description": "Μία φωτογραφία με λεζάντα"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "caption": {
+      "type": "string"
+    },
+    "wide": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

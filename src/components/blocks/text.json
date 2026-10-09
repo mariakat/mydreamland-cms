@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_texts",
+  "info": {
+    "displayName": "Κείμενο",
+    "icon": "align-left",
+    "description": "Παράγραφοι, τίτλοι, λίστες και σύνδεσμοι"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "blocks",
+      "required": true
+    }
+  }
+}

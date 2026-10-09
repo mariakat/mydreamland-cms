@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_spotifys",
+  "info": {
+    "displayName": "Spotify",
+    "icon": "music",
+    "description": "Link από τραγούδι, άλμπουμ, playlist ή podcast του Spotify"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true,
+      "regex": "^https://open\\.spotify\\.com/.+"
+    }
+  }
+}

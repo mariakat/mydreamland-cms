@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_blocks_recipes",
+  "info": {
+    "displayName": "Συνταγή",
+    "icon": "restaurant",
+    "description": "Μερίδες, χρόνοι, υλικά και βήματα"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "servings": {
+      "type": "string"
+    },
+    "prepTime": {
+      "type": "string"
+    },
+    "cookTime": {
+      "type": "string"
+    },
+    "ingredients": {
+      "type": "text",
+      "required": true
+    },
+    "steps": {
+      "type": "text",
+      "required": true
+    },
+    "notes": {
+      "type": "text"
+    }
+  }
+}

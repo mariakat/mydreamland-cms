@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_blocks_dividers",
+  "info": {
+    "displayName": "Διαχωριστικό",
+    "icon": "minus",
+    "description": "Τα ✦✦✦ ανάμεσα σε ενότητες"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  }
+}

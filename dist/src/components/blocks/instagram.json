@@ -1,0 +1,16 @@
+{
+    "collectionName": "components_blocks_instagrams",
+    "info": {
+        "displayName": "Instagram post",
+        "icon": "picture",
+        "description": "Link από δημόσιο post ή reel του Instagram"
+    },
+    "options": {},
+    "attributes": {
+        "url": {
+            "type": "string",
+            "required": true,
+            "regex": "^https://(www\\.)?instagram\\.com/(p|reel|tv)/.+"
+        }
+    }
+}
